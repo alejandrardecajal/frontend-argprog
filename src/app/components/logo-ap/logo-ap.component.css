@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#logoAP {
+    width: 70px;
+    padding: 5px; 
+    margin: 5px;
+}
+
+img {
+    width: 50px;
+    margin: 5px;
+}
+button {
+    margin: 5px;
+}
+
+.btn{
+    border-width: 2px;
+}
