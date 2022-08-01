@@ -7,7 +7,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class SEducacionService {
-  eduURL = 'http://localhost:8080/edu/';
+  eduURL = 'https://pintegradorarc.herokuapp.com/';
 
   constructor(private httpClient: HttpClient) { }
 

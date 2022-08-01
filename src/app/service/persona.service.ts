@@ -12,7 +12,7 @@ const AUTHORITIES_JEY = 'AuthAuthorities';
 })
 
 export class PersonaService {
-  URL = 'http://localhost:8080/personas/';
+  URL = 'https://pintegradorarc.herokuapp.com/';
 
   constructor(private http: HttpClient) { }
 
