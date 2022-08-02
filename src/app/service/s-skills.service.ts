@@ -7,7 +7,7 @@ import { Skills } from '../model/skills';
   providedIn: 'root'
 })
 export class SSkillsService {
-  skillURL = 'https://pintegradorarc.herokuapp.com/'
+  skillURL = 'https://pintegradorarc.herokuapp.com/skill/';
 
   constructor(private httpClient: HttpClient) { }
 

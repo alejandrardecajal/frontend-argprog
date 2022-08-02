@@ -12,7 +12,7 @@ const AUTHORITIES_JEY = 'AuthAuthorities';
 })
 
 export class PersonaService {
-  URL = 'https://pintegradorarc.herokuapp.com/';
+  URL = 'https://pintegradorarc.herokuapp.com/persona/';
 
   constructor(private http: HttpClient) { }
 

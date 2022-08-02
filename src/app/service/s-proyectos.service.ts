@@ -7,7 +7,7 @@ import { Proyectos } from '../model/proyectos';
   providedIn: 'root'
 })
 export class SProyectosService {
-  proyURL = 'https://pintegradorarc.herokuapp.com/';
+  proyURL = 'https://pintegradorarc.herokuapp.com/proy/';
 
   constructor(private httpClient: HttpClient) { }
 
