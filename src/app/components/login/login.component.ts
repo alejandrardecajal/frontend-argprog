@@ -13,7 +13,7 @@ import { TokenService } from 'src/app/service/token.service';
 export class LoginComponent implements OnInit {
   isLogged = false;
   isLogginFail = false;
-  loginUsuario!: LoginUsuario;
+  LoginUsuario!: LoginUsuario;
   nombreUsuario!: string;
   password!: string;
   roles: string[] = [];
@@ -30,8 +30,8 @@ export class LoginComponent implements OnInit {
   }
 
   onLogin(): void{
-    this.loginUsuario = new LoginUsuario(this.nombreUsuario, this.password);
-    this.authService.login(this.loginUsuario).subscribe(data =>{
+    this.LoginUsuario = new LoginUsuario(this.nombreUsuario, this.password);
+    this.authService.login(this.LoginUsuario).subscribe(data =>{
         this.isLogged = true;
         this.isLogginFail = false;
         this.tokenService.setToken(data.token);
