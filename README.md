@@ -1,27 +1,52 @@
-# PIAle
+# Porfolio Alejandra R. de Cajal
+![Portada](https://user-images.githubusercontent.com/95290077/182887684-7b379991-7cab-403d-997e-6c9dba0588ad.svg )
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Descripción del proyecto
 
-## Code scaffolding
+Este proyecto corresponde al Proyecto Integrador Porfolio Web Full Stack.
+Correspondiente al programa "Argentina Programa", segunda etapa "Yo Programo".
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Secciones
 
-## Build
+* Header: Redes sociales y botón de login.
+* Acerca de mi.
+* Experiencia laboral.
+* Educación.
+* Hard & Soft Skills.
+* Proyectos realizados.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Estado del proyecto
+Primera versión funcional para ser evaluada - Agosto 2022.
 
-## Running unit tests
+## Funcionalidades
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Ingreso al modo de edición mediante botón LOGIN con usuario y contraseña.
+* CRUD para las secciones de Experiencia laboral, Educación, Hard & Soft Skills y Proyectos realizados.
+* Botón de LOGOUT para salir del modo de edición.
+* Implementación de JWT
 
-## Running end-to-end tests
+## Herramientas y Tecnologías utilizadas
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+FRONTEND
+* Visual Studio Code
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
+* Angular
+* Firebase
 
-## Further help
+BACKEND
+* Netbeans
+* SpringBoot
+* Java
+* Heroku
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+BASE DE DATOS
+* MySQL
+* Clever Cloud 
+
+![Logos](https://user-images.githubusercontent.com/95290077/182890430-cc97f567-2948-4ffa-80d5-d28126fb5c12.svg)
+
